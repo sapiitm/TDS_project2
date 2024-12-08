@@ -20,7 +20,7 @@ import base64
 from io import StringIO
 import pandas as pd
 
-# os.environ["AIPROXY_TOKEN"]  = 'eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIxZjEwMDAzMDNAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.XFMiomod7JjNEpHRBFbiX2yivhdI0DcTaQMICOz0Gio'
+
 token = os.environ["AIPROXY_TOKEN"]
 
 ## function to get image from text of python code
