@@ -20,7 +20,6 @@ import base64
 from io import StringIO
 import pandas as pd
 
-
 token = os.environ["AIPROXY_TOKEN"]
 
 ## function to get image from text of python code
@@ -176,7 +175,7 @@ def main(filename,token):
           print(f"Error: {response.status_code}")
 
     ## pass all the previous input to model to get final output
-    print(f"file_list{file_list}")
+    # print(f"file_list{file_list}")
     image1 =  file_list[0].split('/')[-1]
     image2 =  file_list[1].split('/')[-1]
     image3 =  file_list[2].split('/')[-1]
@@ -195,7 +194,7 @@ def main(filename,token):
 
     if response.status_code == 200:
         response_json = response.json()
-        print(response_json['choices'][0]['message']['content']) # Print the date
+        # print(response_json['choices'][0]['message']['content']) # Print the date
         output = response_json['choices'][0]['message']['content'] # Print the date
         print("Final content of anaylysis has been generated successfully..")
     else:
