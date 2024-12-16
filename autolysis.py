@@ -19,6 +19,7 @@ import glob
 import base64
 from io import StringIO
 import pandas as pd
+import shutil
 
 token = os.environ["AIPROXY_TOKEN"]
 
@@ -331,6 +332,20 @@ def main(filename,token):
     with open(f"{folder}/README.md", 'w') as file:
       file.write(output)
       print("Program run completed successfully")
+
+    #copy all the contents to the current directory
+    try:
+      destination_dir = os.getcwd()
+      os.chdir(folder)
+      files =  glob.glob('*.*')
+      for file in files:
+        
+        destination_path = os.path.join(destination_dir, file)
+        shutil.copy(f"{folder}/{file}",destination_path)
+        print("copied the contents to current directory")
+    except Exception as e:
+      print(e)
+    
 
 
 
