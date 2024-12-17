@@ -19,3 +19,8 @@ The insights gleaned from the analysis can inform policymakers and stakeholders 
 - **Addressing Inequalities**: The data suggests that there may be disparities in happiness levels based on these factors, so targeted interventions could be crucial in disadvantaged regions or populations.
 
 Overall, these findings provide a comprehensive understanding of the mechanics behind happiness and can be utilized to drive strategies for enhancing the quality of life across nations.
+
+![gdp_vs_life_ladder](https://github.com/user-attachments/assets/188d60e8-4503-4b37-aa5a-633549f32ca0)
+![life_ladder_by_country](https://github.com/user-attachments/assets/70a24286-fe6f-4828-855c-15b43826c922)
+![life_ladder_distribution_by_year](https://github.com/user-attachments/assets/83d5a035-1bc3-4eeb-93b8-feec299b41fa)
+
