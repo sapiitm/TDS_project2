@@ -24,3 +24,8 @@ The insights from this analysis could guide various stakeholders:
 - **Data-Driven Decision Making:** This analysis underscores the importance of leveraging analytics in decision-making processes, paving the way for more data-informed strategies in book publishing and marketing.
 
 By implementing these insights, stakeholders can enhance their strategic initiatives and improve engagement within the literary community.
+![paitplot_language_code](https://github.com/user-attachments/assets/3a2f2f65-ddf4-40f3-9f3a-0028d8f89bad)
+![average_ratings_distribution](https://github.com/user-attachments/assets/f3140a80-8779-43bc-8d9b-83e2fcea7480)
+![ratings_by_publication_year](https://github.com/user-attachments/assets/f862516e-dcc9-4355-952f-fe05c4819530)
+
+
